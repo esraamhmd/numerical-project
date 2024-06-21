@@ -6,9 +6,19 @@ The Numerical Project is a collection of numerical methods and algorithms implem
 
 ## Features
 
-- **Root Finding Algorithms:** Implementations of methods like Bisection, Newton-Raphson, and Secant.
-- **Linear Systems Solvers:** Methods for solving linear equations, including Gaussian Elimination and LU Decomposition.
-- **Interpolation and Extrapolation:** Techniques such as Lagrange Polynomials and Newton's Divided Differences.
+### Root Finding Algorithms
+- **Bisection Method:** A robust and simple method for finding roots by repeatedly bisecting an interval and selecting a subinterval in which a root must lie.
+- **False Position Method:** An improvement over the bisection method that uses linear interpolation to find a better approximation of the root.
+- **Simple Fixed Point Method:** An iterative method that transforms the equation into a fixed-point form and uses successive approximations to find the root.
+- **Newton Method:** A powerful and fast method that uses the derivative of the function to find successively better approximations of the root.
+- **Secant Method:** Similar to Newton's method but does not require the computation of the derivative, using secant lines instead.
+
+### Linear Systems Solvers
+- **Gauss Elimination:** A systematic method for solving linear systems by transforming the system into an upper triangular matrix, then performing back-substitution.
+- **LU Decomposition:** Decomposes a matrix into a lower triangular matrix (L) and an upper triangular matrix (U) to simplify solving linear systems and computing determinants.
+- **Cramer’s Rule:** A straightforward method using determinants to solve linear systems, particularly useful for small systems.
+- **Gauss-Jordan Elimination:** An extension of Gaussian elimination that reduces the matrix further to row echelon form, providing a direct method for finding the inverse of a matrix and solving linear systems.
+
 
 ## Technologies Used
 
